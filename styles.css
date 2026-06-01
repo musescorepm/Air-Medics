@@ -1,0 +1,370 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.TopBanner {
+    height: 150px;
+    width: auto;
+    background-color: lightblue;
+}
+
+.TopBanner a {
+    position: absolute;
+    color:rgb(0, 0, 157);
+    left:160px;
+    top: 45px;
+    font-family: Cambria;
+    font-size: 35px;
+}
+
+.TopBanner img {
+    height: 110px;
+    width: 110px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.TopBanner a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.TopBanner h3 {
+    position: absolute;
+    color:rgb(20, 20, 87);
+    left:820px;
+    top: 29px;
+    font-family: Arial;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.TopBanner h4 {
+    position: absolute;
+    color:rgb(20, 20, 87);
+    left:1080px;
+    top: 22px;
+    font-family: Arial;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+.TopBanner h2 {
+    position: absolute;
+    left: 560px;
+    top: 33px;
+    color: rgb(20, 20, 87);
+    font-family: Arial;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+section a {
+    display: inline-block;
+    margin-right: 12px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding-left: 20px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+#popup1 {
+    width: 1528px;
+    height: 130px;
+    left: 0px;
+    top: 150px;
+    position: relative;
+    background-color: rgb(167, 220, 234);
+    position: absolute;
+    opacity: 0;
+    transform: translateY(-5px);
+    pointer-events: none;
+    transition: opacity 250ms ease-in-out, transform 250ms ease-in-out;
+}
+#popup1.show {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+
+section a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+article div p {
+    position: relative;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serifs;
+    margin-left: 40px ;
+    line-height: 25px ;
+}
+
+article img {
+    width: 100vw;
+    height: auto;
+    position: relative;
+}
+
+
+article div h6 {
+    position: relative;
+    font-size: 30px;
+    font-family: 'sans-serifs';
+    margin-left: 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+article #introbox {
+    position: absolute;
+    top: 925px;
+    width: 100vw;
+    height: 410px;
+    background: rgba(170, 238, 252, 0.75);
+}
+
+article section h6 {
+    position: relative;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 250px;
+    margin-top: 40px;
+}
+
+article section p {
+    position: relative;
+    font-size: 20px;
+    font-family:'Lucida Sans';
+    margin-left: 40px;
+    margin-top: 20px;
+    max-width: 800px;
+}
+
+article section #imgfront {
+    position: absolute;
+    top: 1340px;
+    width: 300px;
+    right: 120px;
+    height: auto;
+}
+
+article section img.imgnext {
+    position: absolute;
+    top: 1830px;
+    width: 300px;
+    right: 120px;
+    height: auto;
+}
+
+article section h2 {
+    position: relative;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 250px;
+    margin-top: 40px;
+}
+
+article section h2.imgnext {
+    position: relative;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 250px;
+    margin-top: 180px;
+}
+
+article section p.imgnext {
+    position: relative;
+    font-size: 20px;
+    font-family:'Lucida Sans';
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+article section div.imgnext {
+    width: 100vw;
+    height: 500px;
+    position: absolute;
+    top: 1820px;
+    background-color: aliceblue;
+}
+
+article section div.HonestContractors {
+    width: 100vw;
+    height: 800px;
+    position: relative;
+    margin-top: 50px;
+    background-color:cadetblue;
+}
+
+article section p.HonestContractors {
+    max-width: 800px;
+    position: relative;
+    margin-left: 40px;
+    margin-top: 80px;
+    font-family: 'Lucida Sans';
+}
+
+article section div.Selection1 {
+    width:400px;
+    height: 420px;
+    margin-left: 50px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    top: 2400px;
+    position:absolute;
+    border: black, 2px, solid;
+}
+
+article section div.Selection1 h1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+article section div.Selection1 p {
+    font-size: 16px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: 'Oxygen';
+}
+
+article section div.Selection1 img#deadbeat {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 200px;
+    height: auto;
+}
+
+article section div.Selection1 img#slumlord {
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 170px;
+    height: auto;
+}
+
+article section div.Selection2 img {
+    margin-right: 10px;
+    margin-top: 5px;
+    width: 400px;
+    height: auto;
+}
+article section div.Selection2  h1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+article section div.Selection2 p {
+    font-size: 16px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: 'Oxygen';
+}
+
+article section div.Selection2 {
+    width:400px;
+    height: 420px;
+    left: 550px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    top: 2400px;
+    position:absolute;
+    border: black, 2px, solid;
+}
+
+article section div.Selection3 img {
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 300px;
+    height: auto;
+}
+article section div.Selection3  h1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+article section div.Selection3 p {
+    font-size: 16px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: 'Oxygen';
+}
+
+article section div.Selection3 {
+    width:400px;
+    height: 420px;
+    left: 1050px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    top: 2400px;
+    position:absolute;
+    border: black, 2px, solid;
+}
+
+article section div.Joinus {
+    width: 100vw;
+    height: 600px;
+    background-color:lightblue;
+    position: relative;
+    margin: 0px;
+}
+
+article section div.Joinus h1 {
+    color: black;
+    padding-top: 30px;
+    text-align: center;
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+}
+
+article section div.Joinus p {
+    color: rgb(23, 23, 37);
+    padding-top: 50px;
+    padding-left: 50px;
+    text-align: left;
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    max-width: fit-content;
+}
+
+article section div.Joinus h3 {
+    color: rgb(23, 23, 37);
+    padding-top: 150px;
+    padding-left: 50px;
+    text-align: left;
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+article section div.Joinus h4 {
+    color: rgb(23, 23, 37);
+    padding-left: 100px;
+    padding-top: 40px;
+    text-align: left;
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+article section div.Joinus h5 {
+    color: rgb(23, 23, 37);
+    padding-left: 100px;
+    padding-top: 20px;
+    text-align: left;
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+

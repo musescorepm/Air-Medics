@@ -1,0 +1,125 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.TopBanner {
+    height: 150px;
+    width: auto;
+    background-color: lightblue;
+}
+
+.TopBanner a {
+    position: absolute;
+    color:rgb(0, 0, 157);
+    left:160px;
+    top: 45px;
+    font-family: Cambria;
+    font-size: 35px;
+}
+
+.TopBanner img {
+    height: 110px;
+    width: 110px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.TopBanner a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.TopBanner h3 {
+    position: absolute;
+    color:rgb(20, 20, 87);
+    left:820px;
+    top: 29px;
+    font-family: Arial;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.TopBanner h4 {
+    position: absolute;
+    color:rgb(20, 20, 87);
+    left:1080px;
+    top: 22px;
+    font-family: Arial;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+.TopBanner h2 {
+    position: absolute;
+    left: 560px;
+    top: 33px;
+    color: rgb(20, 20, 87);
+    font-family: Arial;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+section a {
+    display: inline-block;
+    margin-right: 12px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding-left: 20px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+#popup1 {
+    width: 1528px;
+    height: 130px;
+    left: 0px;
+    top: 150px;
+    position: relative;
+    background-color: rgb(167, 220, 234);
+    position: absolute;
+    opacity: 0;
+    transform: translateY(-5px);
+    pointer-events: none;
+    transition: opacity 250ms ease-in-out, transform 250ms ease-in-out;
+}
+#popup1.show {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+article div.homepage img {
+    object-fit: cover;
+    width: 100vw;
+    height: 200px;
+    overflow: hidden;
+}
+
+article div.homepage {
+    width: 100vw;
+    height: 600px;
+    background-color:rgb(124, 200, 200);
+}
+
+article div.homepage p {
+    font-family: 'Cambria';
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding-left: 400px;
+    padding-top: 50px;
+}
+
+article div.homepage h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    padding-left: 400px
+}
+
